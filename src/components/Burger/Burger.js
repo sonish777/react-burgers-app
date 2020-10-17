@@ -10,10 +10,8 @@ const burger = (props) => {
       totalIngredients.push(
         <BurgerIngredient key={ingredient + i} type={ingredient} />
       );
-      // console.log(ingredient);
     }
   }
-  console.log(totalIngredients.length);
   return (
     <div className={classes.Burger}>
       <BurgerIngredient type="bread-top" />
